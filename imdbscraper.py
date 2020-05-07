@@ -32,7 +32,5 @@ for index in range(0, len(movies)):
 
 with open('imdbData.json', 'w') as outfile:
     json.dump(movArr, outfile)
-    
-#for item in movArr:
-    #print(item['place'], '-', item['movie_title'], '('+item['year']+') -', 'Starring:', item['star_cast'])
+
 
